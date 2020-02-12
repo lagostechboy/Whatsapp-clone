@@ -1,0 +1,239 @@
+/* Created by Meny Evolving */
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    position: static ;
+}
+    
+body {
+    background-image: url('https://i.ibb.co/DLzwzfJ/images-4.jpg');
+}
+
+header {
+    margin: 0 ;
+    padding: 0 ;
+    position: fixed ;
+}
+#holder {
+    width: 410px ;
+    height: 80px ;
+    background-color: darkgreen ;
+    position: fixed ;
+}
+
+.material-icons {
+    float: left ;
+    margin: 28px 10px 5px 5px ;
+    color: white ;
+}
+
+.fa-phone{
+    float: left ;
+    margin: 30px 10px 5px 10px ;
+    color: white ;
+}
+
+.fa-plus{
+    float: left ;
+    margin: 33px 12px 5px -20px ;
+    color: white ;
+}
+
+header #profile-pics {
+    height: 40px;
+    background: #333;
+    border-radius: 100px;
+    width: 40px;
+    float: left ;
+    overflow: hidden;
+    margin: 25px 10px 30px -5px ;
+}
+
+h3 {
+    font: 'Times new Roman';
+    font-size:25px;
+    color: white ;
+    text-align: center ;
+    font-weight: bolder ;
+    float: left ;
+    white-space: nowrap;
+}
+
+span {
+    font-size: 14px ;
+    font-weight: bolder ;
+    color: white ;
+}
+
+#skyblue {
+    font-size: 14px ;
+    background-color: lightblue ;
+    color: grey ;
+    text-align: center ;
+    margin: 40px ;
+    margin-top: -107px ;
+    padding: 0px ;
+    border-radius:5px 5px 5px 5px/5px 5px 5px 5px;
+}
+
+#skyblue2 {
+    font-size: 14px ;
+    background-color: lightblue ;
+    color: grey ;
+    text-align: center ;
+    margin: 40px ;
+    margin-top: -97px ;
+    padding: 0px ;
+    border-radius:5px 5px 5px 5px/5px 5px 5px 5px;
+}
+
+#skyblue1 {
+    font-size: 14px ;
+    background-color: lightblue ;
+    color: grey ;
+    text-align: center ;
+    margin: 110px ;
+    margin-top: -6px ;
+    padding: 2px ;
+    border-radius:5px 5px 5px 5px/5px 5px 5px 5px;
+}
+
+#skyblue11 {
+    font-size: 14px ;
+    background-color: lightblue ;
+    color: grey ;
+    text-align: center ;
+    margin: 110px ;
+    margin-top: -37px ;
+    padding: 1px ;
+    border-radius:5px 5px 5px 5px/5px 5px 5px 5px;
+}
+
+#skyblue0 {
+    font-size: 14px ;
+    background-color: lightblue ;
+    color: grey ;
+    text-align: center ;
+    margin: 40px ;
+    margin-top: -37px ;
+    padding: 0px ;
+    border-radius:5px 5px 5px 5px/5px 5px 5px 5px;
+}
+
+#yellow {
+    font-size: 14px ;
+    background-color: lightyellow ;
+    color: grey ;
+    text-align: center ;
+    margin: 20px ;
+    margin-top: -107px ;
+    margin-bottom: 10px ;
+    border-radius: 5px 5px 5px 5px/5px 5px 5px 5px;
+}
+
+#white {
+    font-size: 14px ;
+    font-weight: bolder ;
+    background-color: white ;
+    color: pink ;
+    text-align: left ;
+    margin: 100px ;
+    margin-left: 5px ;
+    margin-top: -108px ;
+}
+
+#font {
+    color: black ;
+    font-weight: normal ;
+}
+
+.conversation-compose {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: hidden;
+  height: 40px;
+  width: 100%;
+  z-index: 2;
+}
+
+.conversation-compose div,
+.conversation-compose input {
+  background: #fff;
+  height: 100%;
+}
+
+.conversation-compose .emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50% 0 0 50%;
+  flex: 0 0 auto;
+  margin-left: 8px;
+  width: 38px;
+  height: 38px ;
+}
+
+
+.conversation-compose .input-msg {
+  border: 0;
+  flex: 1 1 auto;
+  font-size: 14px;
+  margin: 0;
+  outline: none;
+  position: relative ;
+  min-width: 50px;
+  height: 38px;
+}
+
+.conversation-compose .photo {
+  flex: 0 0 auto;
+  border-radius: 0 30px 30px 0;
+  text-align: center;
+  width: auto;
+  display: flex;
+  padding-right: 6px;
+  height: 38px;
+}
+
+.conversation-compose .photo img {
+  display: block;
+  color: #7d8488;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  margin-left: 10px;
+}
+
+
+.conversation-compose .send {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  flex: 0 0 auto;
+  margin-right: 8px;
+  padding: 0;
+  position: relative ;
+  outline: none ;
+  margin-left: .5rem;
+}
+
+.conversation-compose .send .circle {
+  background: #008a7c;
+  border-radius: 50%;
+  color: #fff;
+  position: relative ;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conversation-compose .send .circle i {
+  font-size: 24px;
+  margin-left: 1px;
+}
